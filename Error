@@ -8,9 +8,9 @@ gui.OnTopOfCoreBlur = true
 game:GetService("RunService"):SetRobloxGuiFocused(true)
 
 prompt:setParent(gui)
-prompt:setErrorTitle("Status")
+prompt:setErrorTitle("UNDETECTED")
 prompt:updateButtons({{
-   Text = "Next",
+   Text = "Launch",
    Callback = function() prompt:_close() 
        pcall(function()
            game:GetService("RunService"):SetRobloxGuiFocused(false)
@@ -20,35 +20,3 @@ prompt:updateButtons({{
    Primary = true
 }}, 'Default')
 prompt:_open("Last Updated: 2/28/2022 \n17:03 EST")
-
-
-
-
---poop
-
-
-
-
-
-local ErrorPrompt = getrenv().require(game.CoreGui.RobloxGui.Modules.ErrorPrompt)
-local prompt = ErrorPrompt.new("Default")
-prompt._hideErrorCode = true
-
-local gui = Instance.new("ScreenGui", game.CoreGui)
-gui.OnTopOfCoreBlur = true
-
-game:GetService("RunService"):SetRobloxGuiFocused(true)
-
-prompt:setParent(gui)
-prompt:setErrorTitle("Status")
-prompt:updateButtons({{
-   Text = "Continue",
-   Callback = function() prompt:_close() 
-       pcall(function()
-           game:GetService("RunService"):SetRobloxGuiFocused(false)
-           getgenv().radiowaveswhyhaveidonethis = true
-       end)
-   end,
-   Primary = true
-}}, 'Default')
-prompt:_open("Detection Status: \nUndetected")
