@@ -8,7 +8,7 @@ gui.OnTopOfCoreBlur = true
 game:GetService("RunService"):SetRobloxGuiFocused(true)
 
 prompt:setParent(gui)
-prompt:setErrorTitle("Carter's Substantial Menu")
+prompt:setErrorTitle("CSM")
 prompt:updateButtons({{
    Text = "Continue",
    Callback = function() prompt:_close() 
@@ -19,4 +19,4 @@ prompt:updateButtons({{
    end,
    Primary = true
 }}, 'Default')
-prompt:_open("Thanks for using Carter's Substantial Menu! \nHave fun!")
+prompt:_open("Last Updated: 2/28/2022 \n17:03 EST")
