@@ -53,7 +53,7 @@ function Library:CreateWindow(titleText,prompt)
     if titleText == "" then
         Title.Text = "Totem's Modest Menu Lib v0.4.2"
     else
-        Title.Text = titleText or "Totem's Modest Menu Lib v0.4.2"
+        Title.Text = titleText or "Carter's Substantial Menu"
     end
     
     Title.TextColor3 = Color3.fromRGB(255, 255, 255)
