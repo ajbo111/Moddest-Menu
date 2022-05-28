@@ -8,7 +8,7 @@ gui.OnTopOfCoreBlur = true
 game:GetService("RunService"):SetRobloxGuiFocused(true)
 
 prompt:setParent(gui)
-prompt:setErrorTitle("TRIDENT")
+prompt:setErrorTitle("Carter's Substantial Menu")
 prompt:updateButtons({{
    Text = "Continue",
    Callback = function() prompt:_close() 
@@ -19,4 +19,4 @@ prompt:updateButtons({{
    end,
    Primary = true
 }}, 'Default')
-prompt:_open("Thanks for using TRIDENT \nHave fun!")
+prompt:_open("Thanks for using Carter's Substantial Menu! \nHave fun!")
