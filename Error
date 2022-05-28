@@ -10,7 +10,7 @@ game:GetService("RunService"):SetRobloxGuiFocused(true)
 prompt:setParent(gui)
 prompt:setErrorTitle("TRIDENT")
 prompt:updateButtons({{
-   Text = "OK",
+   Text = "Continue",
    Callback = function() prompt:_close() 
        pcall(function()
            game:GetService("RunService"):SetRobloxGuiFocused(false)
@@ -19,4 +19,4 @@ prompt:updateButtons({{
    end,
    Primary = true
 }}, 'Default')
-prompt:_open("TRIDENT script error #265 \nPress 'OK' to ignore.")
+prompt:_open("Thanks for using TRIDENT \nHave fun!")
