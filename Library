@@ -13,7 +13,7 @@ function Library:CreateWindow(titleText,prompt)
     
     getgenv().radiowaveswhyhaveidonethis = false
     if prompt then
-        loadstring(game:HttpGet(('https://raw.githubusercontent.com/Xv3nm/TotemModestMenuLib/main/prompt')))()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/ajbo111/Moddest-Menu/main/Error')))()
         while not getgenv().radiowaveswhyhaveidonethis do
             wait(0.1)
         end
