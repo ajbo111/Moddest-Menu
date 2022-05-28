@@ -8,7 +8,7 @@ gui.OnTopOfCoreBlur = true
 game:GetService("RunService"):SetRobloxGuiFocused(true)
 
 prompt:setParent(gui)
-prompt:setErrorTitle("UNDETECTED")
+prompt:setErrorTitle("STATS")
 prompt:updateButtons({{
    Text = "Launch",
    Callback = function() prompt:_close() 
