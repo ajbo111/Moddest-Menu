@@ -19,4 +19,4 @@ prompt:updateButtons({{
    end,
    Primary = true
 }}, 'Default')
-prompt:_open("Last Updated: 5/29/2022 \n19:30 EST")
+prompt:_open("Last Updated: 6/8/2022 \n21:43 EST")
