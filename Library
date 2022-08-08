@@ -339,9 +339,9 @@ function Library:CreateWindow(titleText,prompt)
             TextButton.Font = Enum.Font.GothamSemibold
             TextButton.Text = name
             if warning then
-                TextButton.TextColor3 = Color3.fromRGB(255, 143, 22)
+                TextButton.TextColor3 = Color3.fromRGB(252, 1, 15)
             else
-                TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+                TextButton.TextColor3 = Color3.fromRGB(252, 195, 5)
             end
             TextButton.TextSize = 16.000
             TextButton.TextXAlignment = Enum.TextXAlignment.Center
